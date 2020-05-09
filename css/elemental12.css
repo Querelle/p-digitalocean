@@ -1,0 +1,429 @@
+/*========= regole generali ===========*/
+.container {
+  margin: auto;
+}
+
+.container-fluid {
+  width: auto;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
+  margin: 0 -16px;
+}
+
+[class*="col-"] {
+  padding: 0 16px;
+  height: 100%;
+  float: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.inline-list > li {
+  display: inline-block;
+  padding-right: 8px;
+}
+
+.inline-list {
+  list-style: none;
+}
+
+.unstyled-list {
+  list-style: none;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+}
+
+img {
+  width: 100%
+}
+
+ul {
+  padding-left: 0;
+}
+
+
+
+
+/*========= schermi LarGe ===========*/
+@media all and (min-width: 1220px) {
+/*========= container ===========*/
+  .container {
+    max-width: 1170px;
+  }
+
+/*========= colonne ===========*/
+  .col-lg-1 {
+    width: calc(100% / 12);
+  }
+  .col-lg-2 {
+    width: calc((100% / 12) * 2);
+  }
+  .col-lg-3 {
+    width: calc((100% / 12) * 3);
+  }
+  .col-lg-4 {
+    width: calc((100% / 12) * 4);
+  }
+  .col-lg-5 {
+    width: calc((100% / 12) * 5);
+  }
+  .col-lg-6 {
+    width: calc((100% / 12) * 6);
+  }
+  .col-lg-7 {
+    width: calc((100% / 12) * 7);
+  }
+  .col-lg-8 {
+    width: calc((100% / 12) * 8);
+  }
+  .col-lg-9 {
+    width: calc((100% / 12) * 9);
+  }
+  .col-lg-10 {
+    width: calc((100% / 12) * 10);
+  }
+  .col-lg-11 {
+    width: calc((100% / 12) * 11);
+  }
+  .col-lg-12 {
+    width: calc((100% / 12) * 12);
+  }
+
+/*========= margini ===========*/
+  .col-lg-offset-1 {
+    margin-left: calc(100% / 12);
+  }
+  .col-lg-offset-2 {
+    margin-left: calc((100% / 12) * 2);
+  }
+  .col-lg-offset-3 {
+    margin-left: calc((100% / 12) * 3);
+  }
+  .col-lg-offset-4 {
+    margin-left: calc((100% / 12) * 4);
+  }
+  .col-lg-offset-5 {
+    margin-left: 50%;
+  }
+  .col-lg-offset-6 {
+    margin-left: calc((100% / 12) * 6);
+  }
+  .col-lg-offset-7 {
+    margin-left: calc((100% / 12) * 7);
+  }
+  .col-lg-offset-8 {
+    margin-left: calc((100% / 12) * 8);
+  }
+  .col-lg-offset-9 {
+    margin-left: calc((100% / 12) * 9);
+  }
+  .col-lg-offset-10 {
+    margin-left: calc((100% / 12) * 10);
+  }
+  .col-lg-offset-11 {
+    margin-left: calc((100% / 12) * 11);
+  }
+
+/*========= display  NON FUNZIONA ===========*/
+
+
+
+}
+/*========= fine schermi LarGe ===========*/
+
+
+/*========= schermi MeDi ===========*/
+@media all and (max-width: 1219px) {
+/*========= container ===========*/
+  .container {
+    max-width: 970px;
+  }
+
+/*========= colonne ===========*/
+  .col-md-1 {
+    width: calc(100% / 12);
+  }
+  .col-md-2 {
+    width: calc((100% / 12) * 2);
+  }
+  .col-md-3 {
+    width: calc((100% / 12) * 3);
+  }
+  .col-md-4 {
+    width: calc((100% / 12) * 4);
+  }
+  .col-md-5 {
+    width: calc((100% / 12) * 5);
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: calc((100% / 12) * 7);
+  }
+  .col-md-8 {
+    width: calc((100% / 12) * 8);
+  }
+  .col-md-9 {
+    width: calc((100% / 12) * 9);
+  }
+  .col-md-10 {
+    width: calc((100% / 12) * 10);
+  }
+  .col-md-11 {
+    width: calc((100% / 12) * 11);
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+
+/*========= margini ===========*/
+  .col-md-offset-1 {
+    margin-left: calc(100% / 12);
+  }
+  .col-md-offset-2 {
+    margin-left: calc((100% / 12) * 2);
+  }
+  .col-md-offset-3 {
+    margin-left: calc((100% / 12) * 3);
+  }
+  .col-md-offset-4 {
+    margin-left: calc((100% / 12) * 4);
+  }
+  .col-md-offset-5 {
+    margin-left: calc((100% / 12) * 5);
+  }
+  .col-md-offset-6 {
+    margin-left: calc((100% / 12) * 6);
+  }
+  .col-md-offset-7 {
+    margin-left: calc((100% / 12) * 7);
+  }
+  .col-md-offset-8 {
+    margin-left: calc((100% / 12) * 8);
+  }
+  .col-md-offset-9 {
+    margin-left: calc((100% / 12) * 9);
+  }
+  .col-md-offset-10 {
+    margin-left: calc((100% / 12) * 10);
+  }
+  .col-md-offset-11 {
+    margin-left: calc((100% / 12) * 11);
+  }
+
+/*========= display NON FUNZIONA===========*/
+
+
+
+}
+/*========= fine schermi MeDium ===========*/
+
+
+/* ========= schermi SMall ============*/
+@media all and (max-width: 991px) {
+/*========= container ===========*/
+  .container {
+    max-width: 750px;
+  }
+
+/*========= colonne ===========*/
+  .col-sm-1 {
+    width: calc(100% / 12);
+  }
+  .col-sm-2 {
+    width: calc((100% / 12) * 2);
+  }
+  .col-sm-3 {
+    width: calc((100% / 12) * 3);
+  }
+  .col-sm-4 {
+    width: calc((100% / 12) * 4);
+  }
+  .col-sm-5 {
+    width: calc((100% / 12) * 5);
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-7 {
+    width: calc((100% / 12) * 7);
+  }
+  .col-sm-8 {
+    width: calc((100% / 12) * 8);
+  }
+  .col-sm-9 {
+    width: calc((100% / 12) * 9);
+  }
+  .col-sm-10 {
+    width: calc((100% / 12) * 10);
+  }
+  .col-sm-11 {
+    width: calc((100% / 12) * 11);
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+
+/*========= margini ===========*/
+  .col-sm-offset-1 {
+    margin-left: calc(100% / 12);
+  }
+  .col-sm-offset-2 {
+    margin-left: calc((100% / 12) * 2);
+  }
+  .col-sm-offset-3 {
+    margin-left: calc((100% / 12) * 3);
+  }
+  .col-sm-offset-4 {
+    margin-left: calc((100% / 12) * 4);
+  }
+  .col-sm-offset-5 {
+    margin-left: calc((100% / 12) * 5);
+  }
+  .col-sm-offset-6 {
+    margin-left: calc((100% / 12) * 6);
+  }
+  .col-sm-offset-7 {
+    margin-left: calc((100% / 12) * 7);
+  }
+  .col-sm-offset-8 {
+    margin-left: calc((100% / 12) * 8);
+  }
+  .col-sm-offset-9 {
+    margin-left: calc((100% / 12) * 9);
+  }
+  .col-sm-offset-10 {
+    margin-left: calc((100% / 12) * 10);
+  }
+  .col-sm-offset-11 {
+    margin-left: calc((100% / 12) * 11);
+  }
+
+/*========= display NON FUNZIONA ===========*/
+
+
+
+}
+/*========= fine schermi SMall ===========*/
+
+
+/* ========= schermi eXStra small ============*/
+@media all and (max-width: 767px) {
+/*========= container ===========*/
+  .container {
+    max-width: auto;
+  }
+
+/*========= colonne ===========*/
+  .col-xs-1 {
+    width: calc(100% / 12);
+  }
+  .col-xs-2 {
+    width: calc((100% / 12) * 2);
+  }
+  .col-xs-3 {
+    width: calc((100% / 12) * 3);
+  }
+  .col-xs-4 {
+    width: calc((100% / 12) * 4);
+  }
+  .col-xs-5 {
+    width: calc((100% / 12) * 5);
+  }
+  .col-xs-6 {
+    width: 50%;
+  }
+  .col-xs-7 {
+    width: calc((100% / 12) * 7);
+  }
+  .col-xs-8 {
+    width: calc((100% / 12) * 8);
+  }
+  .col-xs-9 {
+    width: calc((100% / 12) * 9);
+  }
+  .col-xs-10 {
+    width: calc((100% / 12) * 10);
+  }
+  .col-xs-11 {
+    width: calc((100% / 12) * 11);
+  }
+  .col-xs-12 {
+    width: 100%;
+  }
+
+/* ========= margini ============*/
+  .col-xs-offset-1 {
+    margin-left: calc(100% / 12);
+  }
+  .col-xs-offset-2 {
+    margin-left: calc((100% / 12) * 2);
+  }
+  .col-xs-offset-3 {
+    margin-left: calc((100% / 12) * 3);
+  }
+  .col-xs-offset-4 {
+    margin-left: calc((100% / 12) * 4);
+  }
+  .col-xs-offset-5 {
+    margin-left: 50%;
+  }
+  .col-xs-offset-6 {
+    margin-left: calc((100% / 12) * 6);
+  }
+  .col-xs-offset-7 {
+    margin-left: calc((100% / 12) * 7);
+  }
+  .col-xs-offset-8 {
+    margin-left: calc((100% / 12) * 8);
+  }
+  .col-xs-offset-9 {
+    margin-left: calc((100% / 12) * 9);
+  }
+  .col-xs-offset-10 {
+    margin-left: calc((100% / 12) * 10);
+  }
+  .col-xs-offset-11 {
+    margin-left: calc((100% / 12) * 11);
+  }
+
+/* ========= display  NON FUNZIONA ============*/
+
+
+
+}
+/* ========= fine schermi eXStra small ============*/

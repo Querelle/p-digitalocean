@@ -1,0 +1,208 @@
+/* ========= regole generali ========= */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #757575;
+}
+
+input {
+  width: 100%;
+  border: 0;
+  padding: 8px 8px;
+  border: 1px solid grey;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  font: inherit;
+  color: inherit;
+}
+
+section {
+  padding: 50px 0;
+}
+
+
+/* ========= navigation bar ========= */
+.ms_logo {
+  width: 172px;
+}
+.ms_navigation-bar .inline-list > li {
+  display: inline;
+}
+
+.ms_navigation-bar {
+  line-height: 0;
+  padding: 20px 0;
+}
+
+.ms_quick-access li:last-child {
+  border: 1px solid #006aff;
+  border-radius: 5px;
+  padding: 8px 6px;;
+}
+
+.ms_quick-access .ms_btn {
+  color: #006aff;
+}
+
+.fa-bars {
+  font-size: 30px;
+  color: #006aff;
+}
+
+
+/* ========= welcome section ========= */
+.ms_welcome {
+  background-image: url("../img/bgheader.jpg");
+}
+
+.ms-signup-form{
+  background-color: #FFF;
+  border-radius: 4px;
+  padding: 18px;
+}
+
+.ms_form-wrapper .ms_btn {
+  width: 100%;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  padding: 6px;
+}
+
+.ms_btn-access {
+  background-color: #579aff;
+  color: #FFF;
+}
+
+.ms_btn-google {
+  color: #626262;
+  box-shadow: 0 1px 2px 0 #626262;
+}
+
+
+/* ========= partners ========= */
+.ms_partners {
+  background-color: #f3f5f9;
+}
+.ms_partners .ms_h2 {
+  text-transform: uppercase;
+}
+
+/* utilizzo 'li' anziché la classe per
+sovrascrivere elemental12: è più specifico*/
+.ms_partners li {
+  width: calc((96% / 6) * 1);
+  padding: 15px;
+}
+
+
+/* ========= facility ========= */
+.ms_wrapper {
+  width: 85%;
+  margin: auto;
+}
+
+.ms_facility-menu {
+  border-left: 2px solid #cccccc;
+  padding: 4px 0;
+  padding-left: 8px;
+}
+.ms_facility-menu li {
+  padding: 8px 0;
+}
+
+.ms_icon {
+  width: 36px;
+}
+
+
+/* ========= **general** carousel ========= */
+.ms_carousel {
+  background-color: #f3f5f9;
+}
+
+.ms_slider {
+  position: relative;
+  width: 50%;
+  margin: auto;
+}
+
+.ms_slider .fa-chevron-left {
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.ms_slider .fa-chevron-right {
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+
+/* ========= **panel** carousel ========= */
+.ms_img-wrapper {
+  width: 80%;
+  display: inline-block;
+}
+
+
+/* ========= **team** carousel ========= */
+.ms_content-wrapper {
+  background-color: #FFF;
+  margin: 15px 30px;
+}
+
+.ms_content-logo {
+  width: 60%;
+  padding: 16px;
+}
+
+
+/* ========= spread ========= */
+.ms_spread {
+  background-image: linear-gradient(#0047c5, #001e99);
+  color: #FFF;
+}
+.ms_table-wrapper {
+  padding: 15px;
+}
+.ms_table-wrapper .row:nth-last-of-type(1n+2) {
+  border-bottom: 1px solid #FFF;
+}
+
+
+
+
+
+
+/* ========= eXstra Small screen ========= */
+@media all and (max-width: 767px) {
+  .ms_partners li {
+    width: calc((96% / 2) * 1);
+  }
+}
+
+
+/* ========= MeDium screen ========= */
+@media screen and (max-width: 1219px) {
+  .ms_visible-lg {
+    display: none;
+  }
+
+  .ms_partners li {
+    width: calc((70% / 2) * 1);
+    padding: 26px;
+  }
+
+  .ms_wrapper {
+    width: 100%;
+  }
+}
+
+
+/* ========= LarGe screen ========= */
+@media screen and (min-width: 1220px) {
+  .ms_hidden-lg {
+    display: none;
+  }
+}
