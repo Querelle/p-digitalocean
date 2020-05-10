@@ -35,9 +35,6 @@
   float: right;
 }
 
-.float-left {
-
-}
 
 .clearfix::after {
   content: "";

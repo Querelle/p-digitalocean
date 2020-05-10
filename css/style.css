@@ -20,6 +20,27 @@ section {
   padding: 50px 0;
 }
 
+a {
+  text-decoration: none;
+  font: inherit;
+  color: #006aff;
+}
+
+.ms_h2 {
+  color: #031c4e;
+  font-size: 2.1em;
+}
+
+.ms_h3 {
+  color: #5c6a88;
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.ms_color-contrast h2,
+.ms_color-contrast h3 {
+  color: #FFF;
+}
 
 /* ========= navigation bar ========= */
 .ms_logo {
@@ -32,6 +53,7 @@ section {
 .ms_navigation-bar {
   line-height: 0;
   padding: 20px 0;
+  color: #031c4e;
 }
 
 .ms_quick-access li:last-child {
@@ -55,6 +77,19 @@ section {
   background-image: url("../img/bgheader.jpg");
 }
 
+.ms_h1 {
+  font-size: 3.5em;
+  color: #FFF;
+  line-height: 70px;
+  margin-bottom: -.33em;
+}
+
+.ms_welcome-text p {
+  color: #bbcdff;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
 .ms-signup-form{
   background-color: #FFF;
   border-radius: 4px;
@@ -68,16 +103,35 @@ section {
   padding: 6px;
 }
 
+.ms-signup-form .ms_h3 {
+  color: #006aff;
+}
+
+.ms-signup-form .ms_h2,
+.ms-signup-form .ms_h3 {
+  font-weight: 600;
+  margin: 4px 0;
+  font-size: 2em;
+}
+
 .ms_btn-access {
   background-color: #579aff;
   color: #FFF;
 }
 
 .ms_btn-google {
+  position: relative;
   color: #626262;
   box-shadow: 0 1px 2px 0 #626262;
 }
 
+.ms_googleicon {
+  width: 20px;
+  position: absolute;
+  left: 8px;;
+  top: 50%;
+  transform: translate(0, -50%);
+}
 
 /* ========= partners ========= */
 .ms_partners {
@@ -85,6 +139,12 @@ section {
 }
 .ms_partners .ms_h2 {
   text-transform: uppercase;
+}
+
+.ms_partners .ms_h2 {
+  font-size: 1em;
+  text-transform;
+  color: #6f7b97;
 }
 
 /* utilizzo 'li' anziché la classe per
@@ -124,6 +184,7 @@ sovrascrivere elemental12: è più specifico*/
   position: relative;
   width: 50%;
   margin: auto;
+  margin-top: 40px;
 }
 
 .ms_slider .fa-chevron-left {
@@ -136,6 +197,11 @@ sovrascrivere elemental12: è più specifico*/
   position: absolute;
   top: 50%;
   right: 0;
+}
+
+.fa-circle {
+  font-size: .6em;
+  color: #006aff;
 }
 
 
@@ -170,8 +236,43 @@ sovrascrivere elemental12: è più specifico*/
   border-bottom: 1px solid #FFF;
 }
 
+.ms_spread a {
+  color: #00d7d2;
+}
+
+.ms_spread a:hover {
+  color: #0367b1;
+}
+
+.ms_table-wrapper .row div:nth-of-type(2n) {
+  color: #a3b7e4;
+}
+
+/* ========= cta: get started ========= */
+.ms_get-started {
+  background-image: linear-gradient(#0047c5, #001e99);
+  color: #FFF;
+}
+
+.ms-btn-getstarted {
+  background-color: #FFF;
+  color: #006aff;
+  font-weight: 500;
+  padding: 15px;
+  border-radius: 5px;
+}
 
 
+/* ========= footer ========= */
+footer {
+  background-color: #010e28;
+  padding: 50px 0;
+}
+
+.ms_logo-ref {
+  width: 50px;
+  padding-bottom: 15px;
+}
 
 
 
